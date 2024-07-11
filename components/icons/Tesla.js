@@ -2,7 +2,7 @@ function Tesla() {
   return (
     <svg
       width="200px"
-      height="240px"
+      height="200px"
       viewBox="0 -121.2 278.7 278.7"
       fill="#c7c7c7"
     >

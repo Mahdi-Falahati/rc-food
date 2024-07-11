@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Defination() {
   return (
-    <div className="my-20 flex justify-center flex-col items-center mx-4">
+    <div className="mt-10 mb-3 flex justify-center flex-col items-center mx-4">
       <div className="sm:w-[85%] md:w-[68%] w-[100%] p-8 rounded-md shadow-md shadow-gray-500">
         <h3 className="text-xl font-bold mb-5">Who We Are?</h3>
         <p className="text-gray-700 text-justify text-sm">

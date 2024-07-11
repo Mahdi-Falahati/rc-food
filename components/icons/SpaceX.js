@@ -2,8 +2,8 @@ function SpaceX() {
   return (
     <svg
       fill="#c7c7c7"
-      width="250px"
-      height="250px"
+      width="200px"
+      height="200px"
       viewBox="0 0 14 14"
       role="img"
       focusable="false"
