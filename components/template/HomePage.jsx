@@ -4,6 +4,7 @@ import Companies from "../module/Companies";
 import Defination from "../module/Defination";
 import Guide from "../module/Guide";
 import Instruction from "../module/Instruction";
+import Restrictions from "../module/Restrictions";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Companies />
       <Instruction />
       <Guide />
+      <Restrictions />
     </section>
   );
 }
