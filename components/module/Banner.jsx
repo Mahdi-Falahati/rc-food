@@ -16,7 +16,7 @@ export default function Banner() {
       </div>
       <div>
         <img
-          className="max-w-[450px]"
+          className="w-[250px] sm:w-[450px]"
           src="/images/banner.png"
           alt="Food image"
         />
