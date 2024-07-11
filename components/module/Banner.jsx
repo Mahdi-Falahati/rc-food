@@ -12,7 +12,12 @@ export default function Banner() {
           Uber in 2014. Meals are delivered by couriers using cars, scooters,
           bikes, or on foot.
         </span>
-        <Link href="/menu">See All</Link>
+        <Link
+          href="/menu"
+          className="transition delay-150 hover:scale-110  bg-green-700 font-bold mt-4 rounded-xl hover:bg-green-900  py-2 px-5 inline-block text-white"
+        >
+          See All
+        </Link>
       </div>
       <div>
         <img
