@@ -21,7 +21,7 @@ export default function Card({ data }) {
       </div>
       <h2 className="mb-3 mt-2 text-center tracking-wider font-bold">{name}</h2>
       <section className="flex justify-between items-center mb-3 font-bold">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center text-sm">
           <Location />
           {details[0].Cuisine}
         </div>
