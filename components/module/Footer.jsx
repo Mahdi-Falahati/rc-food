@@ -36,7 +36,7 @@ export default function Footer() {
                 Categories
               </Link>
               <Link
-                href="/categories"
+                href="/discounts"
                 className="underline w-[100px] text-sm tracking-wide font-bold text-zinc-500 mx-2"
               >
                 Discunts
