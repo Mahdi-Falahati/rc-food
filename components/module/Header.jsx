@@ -43,7 +43,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <section className="md:hidden absolute left-0 right-0 top-10 bg-white flex flex-col h-[300px] justify-around items-center">
+        <section className="md:hidden z-30 min-h-[60vh] absolute left-0 right-0 top-10 bg-white flex flex-col h-[300px] justify-around items-center">
           <Link
             href="/menu"
             className="text-lg tracking-wide font-bold text-teal-900 mx-2"
