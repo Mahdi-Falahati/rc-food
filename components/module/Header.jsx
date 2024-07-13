@@ -57,7 +57,7 @@ export default function Header() {
             Categories
           </Link>
           <Link
-            href="/categories"
+            href="/discounts"
             className="text-lg tracking-wide font-bold text-teal-900 mx-2"
           >
             Discunts

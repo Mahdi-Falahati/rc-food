@@ -27,7 +27,7 @@ export default function CategoriesPage({ data }) {
 
   return (
     <div className="">
-      <h1 className="text-2xl font-bold text-purple-900 my-4 underline">
+      <h1 className="text-2xl ml-2 font-bold text-purple-900 my-4 underline">
         Categories
       </h1>
       <div>
