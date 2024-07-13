@@ -18,7 +18,7 @@ export default function DetailsPage({ data }) {
     <div>
       <button
         onClick={router.back}
-        className="bg-red-600 mt-14 hover:bg-red-900 transition-all text-white rounded-md px-10 py-1 font-bold tracking-wider"
+        className="bg-red-600 mt-14 ml-2 hover:bg-red-900 transition-all text-white rounded-md px-10 py-1 font-bold tracking-wider"
       >
         Back
       </button>

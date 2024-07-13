@@ -16,7 +16,7 @@ function Guide() {
         Menu
       </Link>
       <Link
-        href="/discount"
+        href="/discounts"
         className="my-3 mx-1 transition delay-150 hover:scale-110  bg-purple-700 font-bold rounded-xl hover:bg-purple-900  py-2 px-10 inline-block text-white"
       >
         Discount

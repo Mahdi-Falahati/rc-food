@@ -33,7 +33,7 @@ export default function CategoriesPage({ data }) {
       <div>
         <div className="flex  justify-center items-center flex-wrap flex-col md:flex-row">
           <select
-            className="m-4 font-bold italic text-center outline-none tracking-widest"
+            className="m-4 bg-white font-bold italic text-center outline-none tracking-widest"
             value={query.difficulty}
             name="difficulty"
             onChange={changeHandler}
@@ -44,7 +44,7 @@ export default function CategoriesPage({ data }) {
             <option value="Hard">Hard</option>
           </select>
           <select
-            className="m-4 font-bold italic text-center outline-none tracking-widest"
+            className="m-4 font-bold bg-white italic text-center outline-none tracking-widest"
             value={query.time}
             name="time"
             onChange={changeHandler}
