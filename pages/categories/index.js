@@ -10,7 +10,7 @@ export async function getServerSideProps(context) {
   } = context;
 
   const fetching = await fetch(`http://localhost:4000/data/`);
-  const data = await res.json();
+  const data = await fetching.json();
 
   const filteredData = data.filter((item) => {
     const difficultyResult = item.details.filter(
