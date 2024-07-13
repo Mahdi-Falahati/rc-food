@@ -20,7 +20,7 @@ export default function Details({ data }) {
 }
 
 export async function getStaticPaths() {
-  const fetching = await fetch(`http://localhost:4000/data/`);
+  const fetching = await fetch("https://api-rcfood.vercel.app/data");
   const data = await fetching.json();
   const paths = data.slice(0, 3).map((item) => ({
     params: {
@@ -34,7 +34,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const fetching = await fetch(`http://localhost:4000/data/${params.id}`);
+  const fetching = await fetch(
+    `http://api-rcfood.vercel.app/data/${params.id}`
+  );
   const data = await fetching.json();
 
   return { props: { data } };

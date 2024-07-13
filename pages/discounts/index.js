@@ -5,14 +5,14 @@ export default function Categories({ data }) {
 }
 
 export async function getStaticProps() {
-  const fetching = await fetch("http://localhost:4000/data");
+  const fetching = await fetch("http://api-rcfood.vercel.app/data");
   const response = await fetching.json();
   const data = response.filter((item) => item.discount !== 0);
 
   return {
     props: {
       data,
-      revalidate: 2,
+      revalidate: 60 * 60 * 1,
     },
   };
 }

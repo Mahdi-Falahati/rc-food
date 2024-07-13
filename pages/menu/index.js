@@ -5,12 +5,12 @@ export default function Menu({ data }) {
 }
 
 export async function getStaticProps() {
-  const fetching = await fetch("http://localhost:4000/data");
+  const fetching = await fetch("https://api-rcfood.vercel.app/data");
   const data = await fetching.json();
   return {
     props: {
       data,
-      revalidate: 2,
+      revalidate: 60*60*1,
     },
   };
 }

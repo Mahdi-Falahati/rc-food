@@ -9,7 +9,7 @@ export async function getServerSideProps(context) {
     query: { difficulty, time },
   } = context;
 
-  const fetching = await fetch(`http://localhost:4000/data/`);
+  const fetching = await fetch(`http://api-rcfood.vercel.app/data/`);
   const data = await fetching.json();
 
   const filteredData = data.filter((item) => {
